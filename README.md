@@ -1,5 +1,5 @@
-# Python
+# About me
 
 Hi there, 
 
-I like code in python and currently I am learning it.
+I am a student.I like code in python and currently I am learning it.
