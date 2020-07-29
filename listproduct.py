@@ -1,4 +1,4 @@
-
+#creating a list containg squares of number from 1 to 30(included) with fuction
 
 n = int(input('Enter the number of elements you want in the list: '))
 
