@@ -19,7 +19,6 @@ for i in range(m):
     x = int(input('Enter the number :'))
     b.append(x)
 
-
 print('Second list',b)
 
 l = []
