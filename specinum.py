@@ -13,10 +13,10 @@ for i in range(len(b)):
     
 
 if s == float(b):
-    print(b,'is special number')
+    print('It is special number')
 
 else:
-    print(b,'is not special number')
+    print('It is not special number')
 
     
 #without using importing math 
