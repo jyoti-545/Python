@@ -17,7 +17,7 @@ def median():
     if n%2 ==0:
         a = n//2
         b = a-1
-        Median =l[b],',',l[a]
+        Median =l[b],l[a]
         return Median
     else:
         a = (n+1)//2
