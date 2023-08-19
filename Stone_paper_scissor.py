@@ -46,10 +46,19 @@ while True:
 
     if a == c :
         print('------------You Won------------')
+
+    elif a == 'stone' and c == 'paper' :
+        print('------------You Won------------')
+
+    elif a == 'paper' and c == 'scissor':
+        print('------------You Won------------')
+
+    elif a == 'scissor' and c == 'stone':
+        print('------------You Won-------------')
         
     else:
         print('-----Better Luck Next Time-----')
-        
+                
     print()
     x = input("Press y you want to continue and any other key if you want to exit  : ")
 
