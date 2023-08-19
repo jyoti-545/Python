@@ -11,19 +11,19 @@ print("\n-----------------Game Info------------------")
 print("You have to type what you choose stone, paper or scissor")
 print("Letter case doesn't matter\n")
 print("Are you ready for the game? ")
-input("press enter  to start   : ")
+input("press enter  to start : ")
 
 l = ('stone','paper','scissor')
 while True:
-    c = str(input("Enter what you choose  :   "))  
+    c = str(input("Enter what you choose : "))  
     c = c.lower()
     a = random.randrange(len(l))
     a = l[a]
     print(a)
 
-    if a == c :
+    if a == c:
         print('-----------Match Draw-----------')
-    elif a == 'stone' and c == 'paper' :
+    elif a == 'stone' and c == 'paper':
         print('------------You Won------------')
     elif a == 'paper' and c == 'scissor':
         print('------------You Won------------')
@@ -32,11 +32,12 @@ while True:
     else:
         print('-----Better Luck Next Time-----\n')
                 
-    x = input("Press y you want to continue and any other key if you want to exit  : ")
-
+    x = input("Press y you want to continue and any other key if you want to exit : ")
+    print()
+    
     if x == 'y':
         continue
     else:
-        print("-----------Thank you for playing --------------")
-        print("----------Hope your enjoyed the Game ----------")
+        print("\n-----------Thank you for playing --------------")
+        print("----------Hope your enjoyed the Game ----------\n")
         break
